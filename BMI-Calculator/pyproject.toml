@@ -1,7 +1,12 @@
 [project]
 name = "bmi-calculator"
 version = "0.1.0"
-description = "Add your description here"
+description = "BMI Calculator using Streamlit"
 readme = "README.md"
-requires-python = ">=3.12.10"
-dependencies = []
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit"
+]
+
+[tool.poetry]
+package-mode = false
